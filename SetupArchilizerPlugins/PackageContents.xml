@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Revit" ProductType="Application" Name="Archilizer" AppVersion="1.0.0" Description="Archilizer Bundle of Revit Plugins" Author="Archilizer" AppNameSpace="appstore.exchange.autodesk.com" ProductCode="{441CB8AF-C0AA-48E6-9E17-E09330907337}" UpgradeCode="{A83DD025-4C4E-4A6F-B31F-C8B822C70AFA}" SupportedLocales="Enu" FriendlyVersion="1.0.0" OnlineDocumentation="http://archilizer.com " Icon="./Content/help/Resources/appicon.ico">
+  <CompanyDetails Name="Archilizer" Phone=" " Url="http://archilizer.com " Email="support@archilizer.com " />
+  <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2017" SeriesMax="R2019" />
+  
+  <Components Description="2017 parts">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2017" SeriesMax="R2017" />
+    <ComponentEntry AppName="Archilizer_Bulk" Version="1.0.0" ModuleName="./Content/windows/Archilizer_Bulk.addin" AppDescription="Tools for Bulk work." />
+  </Components>
+  
+  <Components Description="2018 parts">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2018" SeriesMax="R2018" />
+    <ComponentEntry AppName="Archilizer_Bulk" Version="1.0.0" ModuleName="./Content/windows/Archilizer_Bulk.addin" AppDescription="Tools for Bulk work." />
+  </Components>                                                                                                                    
+                                                                                                                                   
+  <Components Description="2019 parts">                                                                                            
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2019" SeriesMax="R2019" />                                        
+    <ComponentEntry AppName="Archilizer_Bulk" Version="1.0.0" ModuleName="./Content/windows/Archilizer_Bulk.addin" AppDescription="Tools for Bulk work." />
+  </Components>
+
+
+  <Components Description="2017 parts">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2017" SeriesMax="R2017" />
+    <ComponentEntry AppName="Archilizer_Purge" Version="1.0.0" ModuleName="./Content/windows/Archilizer_Purge.addin" AppDescription="Extra Purge Power." />
+  </Components>
+  
+  <Components Description="2018 parts">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2018" SeriesMax="R2018" />
+    <ComponentEntry AppName="Archilizer_Purge" Version="1.0.0" ModuleName="./Content/windows/Archilizer_Purge.addin" AppDescription="Extra Purge Power." />
+  </Components>                                                                                                                    
+                                                                                                                                   
+  <Components Description="2019 parts">                                                                                            
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2019" SeriesMax="R2019" />                                        
+    <ComponentEntry AppName="Archilizer_Purge" Version="1.0.0" ModuleName="./Content/windows/Archilizer_Purge.addin" AppDescription="Extra Purge Power." />
+  </Components>
+
+</ApplicationPackage>
